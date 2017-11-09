@@ -1,0 +1,38 @@
+/* 
+    bg: #222222
+*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat');
+header {
+    background-image: url(./img/bg1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome{
+    height: inherit;
+    text-align: center;
+}
+
+.text1{
+    font-size: 4em;
+    font-style: italic;
+    margin-top: 25%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.btn {
+    background-color: #ff685d !important;
+    border: none !important;
+    border-radius: 2px;
+    padding: 20px 50px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    font-family: 'Montserrat', sans-serif !important;
+}
