@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat');
+
+// Colores
+$ligth : #ff685d; 
+$neutro : #ffffff;
+$dark : #222222;
+
+//Fuentes de texto
+$font1 : 'Montserrat', sans-serif;
+$font2 : 'Kaushan Script', cursive;
+
+//mixins
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }

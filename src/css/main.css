@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
 .me {
   background-color: #222222;
   color: white; }
@@ -36,43 +37,42 @@
 .aboutMe {
   padding-bottom: 10%; }
 
-/* 
-    bg: #222222
-*/
 header {
   background-image: url(../img/bg1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: #ffffff;
   height: 100vh;
   top: 0px;
-  font-family: 'Montserrat', sans-serif; }
-
-.welcome {
-  height: inherit;
+  font-family: "Montserrat", sans-serif;
   text-align: center; }
-
-.text1 {
-  font-size: 4em;
-  font-style: italic;
-  margin-top: 23%;
-  font-family: 'Kaushan Script', cursive; }
-
-.text2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 200%; }
-
-.btn {
-  background-color: #ff685d !important;
-  border: none !important;
-  border-radius: 2px;
-  padding: 20px 50px;
-  font-weight: bold;
-  font-size: 1.4em;
-  margin-top: 5%;
-  margin-bottom: 15%;
-  font-family: 'Montserrat', sans-serif !important; }
+  header .description {
+    height: inherit; }
+    header .description h1.text1 {
+      font-size: 4em;
+      font-style: italic;
+      margin-top: 23%;
+      font-family: "Kaushan Script", cursive; }
+    header .description p.text2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+      font-size: 200%; }
+    header .description a.btn, header .description a.btn:hover {
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      background-color: #ff685d;
+      border: none;
+      padding: 20px 50px;
+      font-weight: bold;
+      font-size: 1.4em;
+      margin-top: 5%;
+      margin-bottom: 15%;
+      font-family: "Montserrat", sans-serif !important; }
+      header .description a.btn:hover {
+        border: 2px solid #ff685d;
+        background-color: transparent; }
 
 /*# sourceMappingURL=main.css.map */
