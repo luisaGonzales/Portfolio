@@ -8,15 +8,15 @@ export const Me = ({shortName, who, bio, photo}) => {
             <Grid>
                 <Row>
                     <Col sm={12}>
-                        <h1 className="dark-letter title">ESTA ES LUISA</h1>
-                        <p className="line">¿Aún no estás sorprendido?</p>
+                        <h1 className="title">ESTA ES LUISA</h1>
+                        <p>¿Aún no estás sorprendido?</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12}>
                         <div className="aboutMe">
                             <Image src={photo} className='photo' circle />
-                            <h4 className="dark-letter names">{shortName}</h4>
+                            <h4 className="name">{shortName}</h4>
                             <p class="who">{who}</p>
                             <div>
                                 <div class="social"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></div>

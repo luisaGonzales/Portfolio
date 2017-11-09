@@ -1,41 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
-.me {
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
+section.me {
   background-color: #222222;
-  color: white; }
-
-.social {
-  background-color: #ff685d;
-  color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-block;
-  align-content: center;
-  margin-right: 10px;
-  font-size: 0.8em; }
-
-#me .fa {
-  padding: auto;
-  padding-top: 25%; }
-
-.photo {
-  border: 7px solid #ffffff; }
-
-.names {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  margin-bottom: 0px; }
-
-.who {
-  padding-bottom: -10px; }
+  color: #ffffff;
+  text-align: center; }
+  section.me h1.title {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    color: #ff685d; }
+  section.me .aboutMe {
+    padding-bottom: 10%; }
+    section.me .aboutMe .photo {
+      border: 7px solid #ffffff;
+      width: 20%; }
+    section.me .aboutMe h4.name {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      margin-bottom: 0px; }
+    section.me .aboutMe p.who {
+      padding-bottom: -10px; }
+    section.me .aboutMe .social {
+      background-color: #ff685d;
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: inline-block;
+      align-content: center;
+      margin-right: 10px;
+      font-size: 0.8em; }
+      section.me .aboutMe .social .fa {
+        padding: auto;
+        padding-top: 25%; }
 
 .names-description {
   font-size: 1.2em;
   padding: 5% 17% 10% 17%; }
-
-.aboutMe {
-  padding-bottom: 10%; }
 
 header {
   background-image: url(../img/bg1.jpeg);

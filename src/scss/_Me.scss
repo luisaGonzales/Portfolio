@@ -1,44 +1,62 @@
-.me{
-    background-color: #222222;
-    color: white;
+@import '_variables';
+
+section.me{
+    background-color: $dark;
+    color: $neutro;
+    text-align: center;
+    h1.title{
+        font-family: $font2;
+        font-weight: 800;
+        font-size: 3em;
+        padding-top: 10%;
+        padding-bottom: 1%;
+        color: $light;
+    }
+    .aboutMe{
+        padding-bottom: 10%;
+        .photo{
+            border: 7px solid $neutro;
+            width: 20%;
+        }
+        h4.name{
+            font-family: $font1;
+            font-weight: 800;
+            margin-bottom: 0px; 
+        }
+        p.who{
+            padding-bottom: -10px;
+        }
+        .social{
+            background-color: $light;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-block;
+            align-content: center;
+            margin-right: 10px;
+            font-size: 0.8em;
+            .fa{
+                padding: auto;
+                padding-top: 25%;
+            }
+        }
+    }
 }
 
-.social{
-    background-color: #ff685d;
-    color: white;
-    width: 40px;
-	height: 40px;
-    border-radius: 50%;
-    display: inline-block;
-    align-content: center;
-    margin-right: 10px;
-    font-size: 0.8em;
-}
 
-#me .fa{
-    padding: auto;
-    padding-top: 25%;
-}
 
-.photo{
-    border: 7px solid #ffffff;
-}
 
-.names{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-bottom: 0px; 
-}
 
-.who{
-    padding-bottom: -10px;
-}
+
+
+
+
+
 
 .names-description{
     font-size: 1.2em;
     padding: 5% 17% 10% 17%;
 }
 
-.aboutMe{
-    padding-bottom: 10%;
-}
+

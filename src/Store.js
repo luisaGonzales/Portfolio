@@ -7,7 +7,7 @@ const initialState = {
             shortName: "Luisa Gonzales",
             who: "Front-End Developer",
             age: "22",
-            photo: '',
+            photo: 'https://scontent.faqp1-1.fna.fbcdn.net/v/t1.0-9/12495038_944327562319059_1952233580294026539_n.jpg?oh=a390a8005ee47a90cb00c62115ab932d&oe=5AA722D3',
             bio: "Soy una mujer talentosa y apasionada. Formada como Front End Developer en Laboratoria, y como administradora en la Universidad Católica de Santa María. Esta combinación me ha permitido potenciar mis habilidades y conocimientos respecto al diseño e interacción con las necesidades del cliente. Me encanta aprender siempre cosas nuevas ya que la tecnología avanza de manera exponencial y es mundo fascinante .",  
             badges: 'Cuadro de Honor, La mas agile, Rocking the Sprint',
             education: 'Universidad Católica de Santa María (2012 - actual)',
