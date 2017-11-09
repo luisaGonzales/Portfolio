@@ -13,7 +13,7 @@ export const Me = ({shortName, who, bio, photo}) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12}>
+                    <Col sm={8}>
                         <div className="aboutMe">
                             <Image src={photo} className='photo' circle />
                             <h4 className="name">{shortName}</h4>
@@ -25,12 +25,15 @@ export const Me = ({shortName, who, bio, photo}) => {
                             </div>
                         </div>
                     </Col>
-                </Row>
-                <Row>
-                    <Col sm={12}>
-                            <p class="names-description">{bio}</p>
+                    <Col sm={4}>
+                            <p class="description">{bio}</p>
                     </Col>
                 </Row>
+                {/* <Row>
+                    <Col sm={12}>
+                            <p class="description">{bio}</p>
+                    </Col>
+                </Row> */}
             </Grid>
         </section>
     );

@@ -9,6 +9,8 @@ $dark : #222222;
 $font1 : 'Montserrat', sans-serif;
 $font2 : 'Kaushan Script', cursive;
 
+//Size font
+$sizep : 1.2em;
 //mixins
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
