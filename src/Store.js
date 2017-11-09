@@ -4,6 +4,8 @@ const initialState = {
     personal : 
         {
             name: "Luisa Datne Gonzales Cáceres",
+            shortName: "Luisa Gonzales",
+            who: "Front-End Developer",
             age: "22",
             photo: '',
             bio: "Soy una mujer talentosa y apasionada. Formada como Front End Developer en Laboratoria, y como administradora en la Universidad Católica de Santa María. Esta combinación me ha permitido potenciar mis habilidades y conocimientos respecto al diseño e interacción con las necesidades del cliente. Me encanta aprender siempre cosas nuevas ya que la tecnología avanza de manera exponencial y es mundo fascinante .",  
