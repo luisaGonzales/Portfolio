@@ -1,0 +1,14 @@
+.projects{
+    background-color: $dark;
+    color: $neutro;
+    text-align: center;
+    height: auto;
+    .projects__title{
+        font-family: $font2;
+        font-weight: 800;
+        font-size: 3em;
+        padding-top: 10%;
+        padding-bottom: 4%;
+        color: $light;
+    }
+}

@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import {connect} from 'redux-zero/react';
 import {Name} from './Name';
 import {Me} from './Me';
-import {Choose} from './Choose'
+import {Choose} from './Choose';
+import {Projects} from './Projects';
+import {Contact} from './Contact';
 
 const App = ({personal, info, socials, repos}) => {
   return (
@@ -11,6 +13,8 @@ const App = ({personal, info, socials, repos}) => {
           <Name name={personal.name} who={personal.who}/>
           <Me shortName={personal.shortName} who={personal.who} bio={personal.bio} photo={personal.photo} title="Esta es Luisa" />
           <Choose title='Why Choose Me?' />
+          <Projects title="Mi Trabajo"/>
+          <Contact title="Contáctame"/>
     </div>
   );
 }

@@ -98,4 +98,17 @@ header {
 .progress-bar-danger {
   background-color: #ff685d; }
 
+.projects {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  height: auto; }
+  .projects .projects__title {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    color: #ff685d; }
+
 /*# sourceMappingURL=main.css.map */
