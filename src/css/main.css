@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat");
 section.me {
   background-color: #222222;
   color: #ffffff;
   text-align: center;
-  height: 100vh; }
+  height: 110vh; }
   section.me h1.title {
     font-family: "Kaushan Script", cursive;
     font-weight: 800;
@@ -42,7 +40,9 @@ section.me {
         padding: auto;
         padding-top: 25%; }
   section.me p.description {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    margin-top: 25%;
+    text-align: justify; }
 
 header {
   background-image: url(../img/bg1.jpeg);
@@ -81,5 +81,21 @@ header {
       header .description a.btn:hover {
         border: 2px solid #ff685d;
         background-color: transparent; }
+
+.choose {
+  background-color: #ffffff;
+  color: #222222;
+  text-align: center;
+  height: 80vh; }
+  .choose .choose__title {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    color: #ff685d; }
+
+.progress-bar-danger {
+  background-color: #ff685d; }
 
 /*# sourceMappingURL=main.css.map */
