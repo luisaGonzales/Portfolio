@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/main.css';
+import '../css/main.css';
 import {Col, Grid, Row, Image} from 'react-bootstrap';
 
 export const Me = ({shortName, who, bio, photo, title}) => {

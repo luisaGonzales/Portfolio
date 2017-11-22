@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import {connect} from 'redux-zero/react';
-import {Name} from './Name';
-import {Me} from './Me';
-import {Choose} from './Choose';
-import {Projects} from './Projects';
-import {Contact} from './Contact';
+
+import {Name} from './Components/Name';
+import {Me} from './Components/Me';
+import {Choose} from './Components/Choose';
+import {Projects} from './Components/Projects';
+import {Contact} from './Components/Contact';
 
 const App = ({personal, info, socials, repos}) => {
   return (
